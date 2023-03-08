@@ -78,3 +78,15 @@ UPDATE `table_name` SET `subject` = 'POA' WHERE `table_name`.`subject` = "Accoun
 UPDATE `table_name` SET `subject` = 'HOME' WHERE `table_name`.`subject` = "Home Management";
 UPDATE `table_name` SET `subject` = 'ART' WHERE `table_name`.`subject` = "Visual Art";
 
+-- UPDATE GRADE TO SCORE
+
+UPDATE `table_name` SET `score` = '90' WHERE `table_name`.`grade` = "A1";
+UPDATE `table_name` SET `score` = '80' WHERE `table_name`.`grade` = "B2";
+UPDATE `table_name` SET `score` = '70' WHERE `table_name`.`grade` = "B3";
+UPDATE `table_name` SET `score` = '60' WHERE `table_name`.`grade` = "C4";
+UPDATE `table_name` SET `score` = '55' WHERE `table_name`.`grade` = "C5";
+UPDATE `table_name` SET `score` = '50' WHERE `table_name`.`grade` = "C6";
+UPDATE `table_name` SET `score` = '40' WHERE `table_name`.`grade` = "D7";
+UPDATE `table_name` SET `score` = '0' WHERE `table_name`.`grade` = "E8";
+UPDATE `table_name` SET `score` = '0' WHERE `table_name`.`grade` = "F9";
+UPDATE `table_name` SET `score` = '0' WHERE `table_name`.`grade` = "AR";
