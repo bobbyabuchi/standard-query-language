@@ -77,6 +77,7 @@ UPDATE `table_name` SET `subject` = 'ART' WHERE `table_name`.`subject` = "Art";
 UPDATE `table_name` SET `subject` = 'POA' WHERE `table_name`.`subject` = "Accounts";
 UPDATE `table_name` SET `subject` = 'HOME' WHERE `table_name`.`subject` = "Home Management";
 UPDATE `table_name` SET `subject` = 'ART' WHERE `table_name`.`subject` = "Visual Art";
+UPDATE `table_name` SET `subject` = 'HIS' WHERE `table_name`.`subject` = "History";
 
 -- UPDATE GRADE TO SCORE
 
